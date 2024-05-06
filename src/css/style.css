@@ -1,0 +1,197 @@
+/* fonts
+roboto-regular - 400; 
+roboto-medium - 500;
+roboto-bold - 700;
+*/
+:root {
+  /* Кольори макету */
+  /* Текст */
+  --colorTextTitle: #212121;
+  --colorText: #757575;
+  --colorTextContrast: #fff;
+  --colorTextAdd: rgba(255, 255, 255, 0.6);
+  --colorHover: #2196f3;
+  /* Фон */
+  --colorBackgroundPrimary: #2f303a;
+  --colorBackgroundSecondary: #f5f4fa;
+}
+
+body {
+  color: var(--colorTextTitle);
+  font-weight: 700;
+  line-height: 1.714;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+}
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+header{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+}
+.header-logo img{
+  width: 120px;
+}
+.list-contact{
+  gap: 344px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+
+}
+ .nav-item{
+  font-weight: 500;
+  
+}
+.contact-link,
+.header-contact {
+  color: var(--colorText);
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  
+}
+.nav-link:hover,
+.contact-link:hover {
+  color: var(--colorHover);
+}
+
+/* main */
+
+/* hero */
+.hero{
+  background-image: url(../img/hero-img/edzenie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  line-height: 1.363;
+  font-size: 44px;
+  color: var(--colorTextContrast);
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #000000;
+}
+.hero-button {
+  line-height: 1.875;
+  background-color: var(--colorHover);
+  color: var(--colorTextContrast);
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-bottom: 200px;
+  
+}
+.hero-button:hover{
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+
+.facts-icons{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 178px;
+}
+.fact-icon img{
+  width: 100px;
+  height: 100px;
+  
+}
+.fact-icon{
+  padding-left:120px;
+}
+
+.facts-list{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.fakt-item{
+  max-width: 350px;
+  height: 200px;
+
+}
+
+
+
+
+.fishermen{
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  background-color: #f5f4fa;
+}
+.photo-list{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.photo-item{
+  border: 1px solid #c2c2c2;
+  text-align: center;
+}
+.photo-item img{
+  width:380px;
+  height: 300px;
+}
+
+
+
+/* footer */
+footer{
+  background-color: var(--colorBackgroundPrimary);
+}
+
+.logo-img{
+  padding-top: 60px;
+  padding-bottom: 20px;
+  width: 120px;
+}
+.footer-info-list{
+  padding-bottom: 60px;
+}
+.footer-info-list li{
+  padding-bottom: 9px;
+}
+.info-address {
+  color: var(--colorTextContrast);
+  font-weight: 400;
+}
+.info-link {
+  color: var(--colorTextAdd);
+  font-weight: 400;
+}
+
+
