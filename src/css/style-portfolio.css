@@ -11,6 +11,9 @@
   --colorBackgroundSecondary: #f5f4fa;
   --colorBorder:#EEEEEE;
 }
+header {
+  background-color: white;
+}
 body {
   color: var(--colorTextTitle);
   font-weight: 400;
@@ -19,6 +22,12 @@ body {
   font-style: normal;
   font-size: 14px;
 }
+/* }
+width: 100%; 
+  height: 100vh;
+  background-image: url('../img/background/gallery.gif'); 
+  background-size: cover; 
+  background-position: center; */
 .container {
   max-width: 1200px;
   padding-left: 15px;
@@ -71,6 +80,11 @@ header{
 
 /* main */
 /* portfolio*/
+.portfolio{
+  background-image: url('../img/background/gallery.gif'); 
+  background-size: cover; 
+  background-position: center;
+}
 .portfolio-filter-list{
   padding-top: 94px;
   margin-left: auto;
@@ -109,10 +123,24 @@ header{
   gap: 30px;
   padding-bottom: 94px;
   justify-content: center;
+
+}
+.projeckt-img {
+  width: 368px;
+  height: 300px;
+  transition: transform 0.5s ease;
+  transform-origin: center;
+  border-radius: 6px 6px 0px 0px  ;
+
 }
 .projeckt {
   border: 1px solid var(--colorBorder); 
-  height: 404px;
+  height: 500px;
+  background-color: none;
+  color: white;
+  backdrop-filter: blur(16px);
+  border-radius: 6px;
+  transition: 0.2s;
 }
 .title-category{
   padding: 20px 20px;
@@ -120,21 +148,26 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  
+
 }
 .projeckt-title {
   line-height: 2;
   font-weight: 700;
   font-size: 18px;
+  
 }
 .projeckt-category {
   line-height: 1.875;
   color: var(--colorText);
   font-size: 16px;
+  color: white;
 }
 
 /* footer */
 footer{
   background-color: var(--colorBackgroundPrimary);
+  
 }
 .logo-img{
   padding-top: 60px;
@@ -148,11 +181,13 @@ footer{
 }
 .info-address {
   color: var(--colorTextContrast);
-  font-weight: 400;
+  font-size: 24px;
+  
 }
 .info-link {
   color: var(--colorTextAdd);
-  font-weight: 400;
+  font-size: 15px;
+  
 }
 
 

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebStudio</title>
+  <title>Gallery</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -17,25 +17,29 @@
   />
   <link rel="stylesheet" href="../../src/css/reset.css">
   <link rel="stylesheet" href="../../src/css/style-portfolio.css" />
+  <link rel="stylesheet" href="../../src/css/style.css">
+
+  <script src="../js/jquery-3.7.1.js"></script>
+  <script src="../js/animation.js"></script>
 </head>
 
 <body>
   <header class="header">
     <div class="container header-container">
-      <a href="#" class="header-logo"><img src="../img/logo/header-logo.svg" alt="Лого"/></a>
+      <a href="#" class="header-logo"><img src="../img/logo/logo-header.jpg" alt="Лого"/></a>
       <div class="list-contact">
         <nav class="header-nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="../../index.html" class="nav-link">Студія</a>
+              <a href="../../index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="#" rel="preconnect" class="nav-link">
-                Портфоліо
+                Gallery
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Контакти</a>
+              <a href="../pages/contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
         </nav>
@@ -44,7 +48,7 @@
             <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
           </li>
           <li class="nav-item">
-            <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+            <a href="tel:+480961111111" class="contact-link">+48 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -55,101 +59,108 @@
     
       <section class="portfolio">
         <div class="container">
-        <h2 hidden>Портфолио</h2>
+        <h2 hidden>Gallery</h2>
         <ul class="portfolio-filter-list">
-          <li class="filter-item"><button type="button" class="filter-link">Усi</button></li>
-          <li class="filter-item"><button type="button" class="filter-link">Веб-сайти</button></li>
-          <li class="filter-item"><button type="button" class="filter-link">Додатки</button></li>
-          <li class="filter-item"><button type="button" class="filter-link">Дизайн</button></li>
-          <li class="filter-item"><button type="button" class="filter-link">Маркетинг</button></li>
+          
         </ul>
         
-          <!-- первые 3 -->
+          <!-- first 3 -->
         <div class="projeckts">
             <article class="projeckt">
               <div class="projeckt-photo">
-                <img src="../../src/img/img-portfolio/laptop.jpg" alt="ноутбук" class="projeckt-img" />
+                <img src="../../src/img/img-fish/1.jpg"  class="projeckt-img" />
               </div>
               <div class="title-category">
-                <h3 class="projeckt-title">Технокряк</h3>
-                <p class="projeckt-category">Веб-сайт</p>
+                <h3 class="projeckt-title">Łosoś</h3>
+                <p class="projeckt-category">
+                  Losos jest gatunkiem ryby słodkowodnej z rodziny łososiowatych, znany ze swojego charakterystycznego różowego mięsa i popularności w kuchni.</p>
               </div>
             </article>
   
             <article class="projeckt">
               <div class="projeckt-photo">
-                <img src="../../src/img/img-portfolio/basketballplayers.jpg" alt="баскетбольні гравці" class="projeckt-img" />
+                <img src="../../src/img/img-fish/2.jpg" class="projeckt-img" />
               </div>
               <div class="title-category">
-                <h3 class="projeckt-title">Постер New Orlean vs Golden Star</h3>
-                <p class="projeckt-category">Дизайн</p>
+                <h3 class="projeckt-title">Śledź</h3>
+                <p class="projeckt-category">
+                  Śledź to gatunek ryby morskiej z rodziny śledziowatych, szeroko wykorzystywany w kuchni, zwłaszcza w postaci marynowanej lub wędzonej.</p>
               </div>
             </article>
               <article class="projeckt">
                   <div class="projeckt-photo">
-                    <img src="../../src/img/img-portfolio/shark.jpg" alt="Акула" class="projeckt-img" />
+                    <img src="../../src/img/img-fish/3.jpg"  class="projeckt-img" />
                   </div>
                   <div class="title-category">
-                  <h3 class="projeckt-title">Ресторан Seafood</h3>
-                  <p class="projeckt-category">Додаток</p>
+                  <h3 class="projeckt-title">Tuńczyk</h3>
+                  <p class="projeckt-category">
+                    Tuńczyk, to duża i szybka ryba morska, ceniona przez ludzi za smaczne mięso, często wykorzystywane w sushi i grillowane na stek.</p>
                 </div>
               </article>
         
-          <!-- вторые 3 -->
+          <!-- second 3 -->
                <article class="projeckt">
                 <div class="projeckt-photo">
-                  <img src="../../src/img/img-portfolio/headphones.jpg" alt="Навушники" class="projeckt-img" />
+                  <img src="../../src/img/img-fish/4.jpg"  class="projeckt-img" />
                 </div>
                 <div class="title-category">
-                  <h3 class="projeckt-title">Проєкт Prime</h3>
-                  <p class="projeckt-category">Маркетинг</p>
+                  <h3 class="projeckt-title">Dorsz</h3>
+                  <p class="projeckt-category">
+                    Dorsz to ryba morska, charakteryzująca się białym, delikatnym mięsem i szerokim zastosowaniem w kuchni, np. w formie filetów smażonych czy pieczonych.
+                    </p>
                 </div>
               </article>
               <article class="projeckt">
                 <div class="projeckt-photo">
-                  <img src="../../src/img/img-portfolio/boxes.jpg" alt="Коробки" class="projeckt-img" />
+                  <img src="../../src/img/img-fish/5.jpg"  class="projeckt-img" />
                 </div>
                 <div class="title-category">
-                  <h3 class="projeckt-title">Проєкт Boxes</h3>
-                  <p class="projeckt-category">Додаток</p>
+                  <h3 class="projeckt-title">Makrela</h3>
+                  <p class="projeckt-category">Makrela to ryba morska o charakterystycznym, długim kształcie ciała i pasiastej skórze, ceniona za swój intensywny smak.</p>
                 </div>
               </article>
               <article class="projeckt">
                 <div class="projeckt-photo">
-                  <img src="../../src/img/img-portfolio/monitor.jpg" alt="монiтор" class="projeckt-img" />
+                  <img src="../../src/img/img-fish/6large.jpg"  class="projeckt-img" />
                 </div>
                 <div class="title-category">
-                    <h3 class="projeckt-title">Inspiration has no Borders</h3>
-                    <p class="projeckt-category">Веб-сайт</p>
+                    <h3 class="projeckt-title"> Halibut</h3>
+                    <p class="projeckt-category">Halibut to duży, biała ryba morska ceniona za delikatne mięso i często wykorzystywana w grillowanych lub smażonych potrawach.</p>
                   </div>
               </article>
            
-              <!-- третие 3 -->
+              <!-- third 3 -->
               <article class="projeckt">
                 <div class="projeckt-photo">
-                  <img src="../../src/img/img-portfolio/magazine.jpg" alt="магазин" class="projeckt-img" />
+                  <img src="../../src/img/img-fish/7.jpg"  class="projeckt-img" />
                 </div>
                 <div class="title-category">
-                  <h3 class="projeckt-title">Видання Limited Edition</h3>
-                  <p class="projeckt-category">Дизайн</p>
+                  <h3 class="projeckt-title">Jesiotr</h3>
+                  <p class="projeckt-category">
+                    Jesiotr to ryba znana ze swoich dużych rozmiarów i kawioru, ceniona w kuchni za swoje delikatne mięso oraz w produkcji luksusowych produktów spożywczych.
+                    </p>
                 </div>
               </article>
               <article class="projeckt">
                 <div class="projeckt-photo">
-                  <img src="../../src/img/img-portfolio/card.jpg" alt="карта" class="projeckt-img" />
+                  <img src="../../src/img/img-fish/8.jpg"  class="projeckt-img" />
                 </div>
                 <div class="title-category">
-                  <h3 class="projeckt-title">Проєкт LAB</h3>
-                  <p class="projeckt-category">Маркетинг</p>
+                  <h3 class="projeckt-title">Flądra</h3>
+                  <p class="projeckt-category">
+                    Flądra to płaska ryba morska, popularna w kuchni ze względu na swój delikatny smak i możliwość przyrządzenia na wiele sposobów, głównie smażona lub duszona.
+                  </p>
                 </div>
               </article>
               <article class="projeckt">
                 <div class="projeckt-photo">
-                  <img src="../../src/img/img-portfolio/laptopandhands.jpg" alt="ноутбук та рука" class="projeckt-img" />
+                  <img src="../../src/img/img-fish/9.jpg"  class="projeckt-img" />
                 </div>
                 <div class="title-category">
-                  <h3 class="projeckt-title">Growing Business</h3>
-                  <p class="projeckt-category">Додаток</p>
+                  <h3 class="projeckt-title">Sardynka</h3>
+                  <p class="projeckt-category">
+                    Sardynka to mała ryba morska, popularna w kuchni głównie jako konserwa, nadająca potrawom wyjątkowego smaku i bogata w zdrowe kwasy tłuszczowe.
+                  </p>
                 </div>
               </article> 
             </div>
@@ -160,7 +171,7 @@
     <div class="container">
     <a href="#" class="footer-logo">
       <img
-        src="../img/logo/footer-logo.svg"
+        src="../img/logo/logo-footer.jpg"
         alt="Лого"
         class="logo-img"
         />
@@ -168,7 +179,7 @@
     <ul class="footer-info-list">
       <li class="info-item">
         <address class="info-address">
-          м. Київ, пр-т Лесі Українки, 26
+          Jaroslaw ul.Rejmonta 1
         </address>
       </li>
       <li class="info-item">
@@ -177,7 +188,7 @@
         >
       </li>
       <li class="info-item">
-        <a href="tel:+380961111111" class="info-link">+38 096 111 11 11</a>
+        <a href="tel:+480961111111" class="info-link">+48 096 111 11 11</a>
       </li>
     </ul>
   </div>

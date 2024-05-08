@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,12 +16,14 @@
   />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <script src="src/js/jquery-3.7.1.js"></script>
+    <script src="src/js/animation.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
         <a href="#" class="header-logo"
-          ><img src="./src/img/logo/logo-header.jpg" alt="Лого"
+          ><img src="./src/img/logo/logo-header.jpg" alt="logo"
         /></a>
         <div class="list-contact">
           <nav class="header-nav">
@@ -33,7 +35,7 @@
                 <a href="src/pages/portfolio.html" rel="preconnect" class="nav-link">Gallery</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Contacts</a>
+                <a href="./src/pages/contact.html" class="nav-link">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -79,21 +81,21 @@
           </ol>
         </div>
       </section>
+
+
       <section class="fishermen">
         <div class="container">
-          <div class="fishermen-photo">
-            <ol class="photo-list">
-              <li class="photo-item"><img src="src/img/info-img/img-man.jpg" alt="man">
-              Oleg Majami <br> 2mejsce</li>
-              <li class="photo-item"><img src="src/img/info-img/fishermen.jpg" alt="udoczki">
-              Dimasos Ponomarev <br>1mejsce</li>
-              <li class="photo-item"><img src="src/img/info-img/brakon.jpg" alt="brakon">
-               Sasunok Ogurcik <br>3mejsce</li>
-            </ol>
-          </div>
-         
+            <h2 class="fishermen-title">TRZY NAJLEPSZYCH RYBAKÓW</h2>
+            <div class="fishermen-photo">
+                <ol class="photo-list">
+                    <li class="photo-item"><img src="src/img/info-img/img-man.jpg" alt="man" class="photo-item-img"> Oleg Majami <br> 2mejsce</li>
+                    <li class="photo-item"><img src="src/img/info-img/fishermen.jpg" alt="udoczki" class="photo-item-img"> Kola Konopatyj <br>1mejsce</li>
+                    <li class="photo-item"><img src="src/img/info-img/brakon.jpg" alt="brakon" class="photo-item-img"> Sasunok Ogurcik <br>3mejsce</li>
+                </ol>
+            </div>
         </div>
-      </section>
+    </section>
+
       
     </main>
     <footer class="footer">
@@ -101,7 +103,7 @@
         <a href="#" class="footer-logo">
           <img
             src="./src/img/logo/logo-footer.jpg"
-            alt="Лого"
+            alt="logo"
             class="logo-img"
             />
         </a>
